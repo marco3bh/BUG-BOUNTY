@@ -1,37 +1,32 @@
-<div align="center">
-
 # BUG BOUNTY
 
 Security findings, reports and responsible disclosures.
 
-</div>
-
-<br>
-
-## REPORTS
-
-### Sentry.cv
-
-**Finding:** Exposed API Key / Missing Rate Limiting  
-**Status:** Not accepted / Informational  
-**Reported:** 2026  
-
-During testing, I identified an API key exposed on the client side and an endpoint that appeared to lack rate limiting, potentially allowing a large number of requests to be generated.
-
-I responsibly reported the finding to Sentry.cv.
-
-The report was not considered a valid security vulnerability because the API key was intended to be publicly accessible.
-
-**What I learned**
-
-`API Keys` &nbsp;&nbsp; `Rate Limiting` &nbsp;&nbsp; `Responsible Disclosure` &nbsp;&nbsp; `Bug Bounty Triage`
-
-<br>
-
 ---
 
-<div align="center">
+<details>
+<summary><strong>Sentry.cv — Public API Key / Rate Limiting</strong></summary>
 
-More findings coming as I continue learning.
+<br>
 
-</div>
+**Year:** 2026  
+**Status:** Informational / Not accepted  
+**Type:** API Security
+
+### FINDING
+
+During testing, I identified an API key exposed on the client side and an endpoint that appeared to lack rate limiting.
+
+This initially appeared capable of generating a large number of requests and potentially causing resource exhaustion.
+
+### RESPONSE
+
+I responsibly reported the issue to Sentry.cv.
+
+The report was not considered a valid vulnerability because the API key was intended to be publicly accessible.
+
+### WHAT I LEARNED
+
+`API Security` `Rate Limiting` `Public API Keys` `Responsible Disclosure` `Bug Bounty Triage`
+
+</details>
