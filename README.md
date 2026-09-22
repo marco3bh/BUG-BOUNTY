@@ -1,3 +1,5 @@
+<div align="center">
+
 # BUG BOUNTY
 
 Security findings, reports and responsible disclosures.
